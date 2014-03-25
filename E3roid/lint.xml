@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="NewApi">
+        <ignore path="src/com/e3roid/E3Fragment.java" />
+    </issue>
+    <issue id="WrongCall">
+        <ignore path="src/com/e3roid/E3Engine.java" />
+    </issue>
+</lint>
