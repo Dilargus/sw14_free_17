@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="3" height="4" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="cave" tilewidth="32" tileheight="32" spacing="4" margin="4">
+  <image source="cave.png" trans="ffffff" width="648" height="2560"/>
+ </tileset>
+ <layer name="1" width="3" height="4">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NkYGBgxIHTGDHFAPzrcZMwAAAA
+  </data>
+ </layer>
+ <layer name="vor1" width="3" height="4">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NkYGBgRMIhjKh8dAwANh9YbDAAAAA=
+  </data>
+ </layer>
+ <objectgroup name="Clickable" width="3" height="4">
+  <object x="36" y="55" width="24" height="35"/>
+ </objectgroup>
+</map>

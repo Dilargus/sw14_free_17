@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="25" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="cave" tilewidth="32" tileheight="32" spacing="4" margin="4">
+  <image source="cave.png" trans="ffffff" width="648" height="2560"/>
+ </tileset>
+ <layer name="vorlage" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NkYGBgHMWjeBSP4lE8rDAABIh4KdwFAAA=
+  </data>
+ </layer>
+ <layer name="1" width="25" height="15">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC2NkYGBgHMWjeBSP4lE8rDAABIh4KdwFAAA=
+  </data>
+ </layer>
+ <objectgroup name="Collision" width="25" height="15"/>
+ <objectgroup name="Clickable" width="25" height="15"/>
+</map>
