@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MenuActivity" >
+
+    <Button
+        android:id="@+id/loadMapButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/createMapButton"
+        android:layout_marginTop="32dp"
+        android:layout_toLeftOf="@+id/menuTV"
+        android:onClick="loadMap"
+        android:text="Load a Map" />
+
+    <Button
+        android:id="@+id/createCityButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/loadMapButton"
+        android:layout_alignBottom="@+id/loadMapButton"
+        android:layout_alignLeft="@+id/menuTV"
+        android:layout_marginLeft="16dp"
+        android:onClick="goToCity"
+        android:text="Go to the City" />
+
+    <Button
+        android:id="@+id/makeMusicButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/loadMapButton"
+        android:layout_below="@+id/loadMapButton"
+        android:layout_marginTop="30dp"
+        android:onClick="playMusic"
+        android:text="Play Music!" />
+
+    <TextView
+        android:id="@+id/menuTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="Menu" />
+
+    <Button
+        android:id="@+id/createMapButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/menuTV"
+        android:layout_centerHorizontal="true"
+        android:onClick="createMap"
+        android:text="Create a new Map" />
+
+    <Button
+        android:id="@+id/buttonTestMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/makeMusicButton"
+        android:layout_alignBottom="@+id/makeMusicButton"
+        android:layout_alignLeft="@+id/createCityButton"
+        android:onClick="testing"
+        android:text="For Testing" />
+
+</RelativeLayout>
